@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-weight: black;
+}
+
+.logo {
+  font-size: 1.3rem;
+}
+
+.hero-section {
+  background-image: url(img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  background-color: transparent;
+  height: 70px;
+  color: white;
+  padding-top: 20px;
+  overflow: auto;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  padding: 15px;
+  margin: 0 5px;
+  font-weight: 400;
+}
+
+.navbar a:hover {
+  font-weight: 500;
+  color: #33e4d9;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-line {
+  color: white;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.main-text {
+  text-align: center;
+  margin-top: -100px;
+}
+
+.main-text h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.main-text p {
+  font-size: 1.8rem;
+  padding-bottom: 1.5em;
+}
+
+.button {
+  display: inline-block;
+  background-color: #12706a;
+  padding: 12px 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #2d9e96;
+  border: 1px solid white;
+}
+
+.wrapper-color {
+  background-color: #2f353b;
+}
+
+.content {
+  height: 100vh;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width: 100%;
+}
+
+.first-destination {
+  max-width: 400px;
+  padding: 30px;
+}
+
+.first-destination h2 {
+  padding-top: 15px;
+}
+
+.first-destination p {
+  padding-top: 10px;
+}
+
+.second-destination {
+  max-width: 400px;
+  padding: 30px;
+}
+
+.second-destination h2 {
+  padding-top: 15px;
+}
+
+.second-destination p {
+  padding-top: 10px;
+}
+
+.third-destination {
+  max-width: 400px;
+  padding: 30px;
+}
+
+.third-destination h2 {
+  padding-top: 15px;
+}
+
+.third-destination p {
+  padding-top: 10px;
+}
+
+.flex-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
